@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Smart Fridge App</string>
+    <string name="scan">Scan</string>
+    <string name="bar_code">Bar Code</string>
+    <string name="hint_username">Enter your Email</string>
+    <string name="hint_password">Enter your Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_createAccount">Create Account</string>
+    <string name="btn_resetPassword">Reset Password</string>
+    <string name="hint_name">Enter your Name</string>
+    <string name="hint_surname">Enter your Surname</string>
+    <string name="hint_email">Enter your Email</string>
+    <string name="hint_reenter_password">Re-enter your Password</string>
+    <string name="create_account_field">Create Account</string>
+    <string name="loading">Loading Please Wait</string>
+    <string name="product_list_header">Product List</string>
+    <string name="add_product_header">Add Product to the Fridge</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_calendar">Calendar</string>
+    <string name="hint_barcode">Type barcode or press scan button</string>
+    <string name="hint_productname">Type product name</string>
+    <string name="hint_quantity">Number of products</string>
+    <string name="hint_expiry_date">Press calendar and pick expiry date</string>
+    <string name="btn_save_product">Save Product</string>
+    <string name="create_edit_shopping_list_header">Create a Shopping List</string>
+    <string name="edit_shopping_list_header">Edit a Shopping List</string>
+
+</resources>

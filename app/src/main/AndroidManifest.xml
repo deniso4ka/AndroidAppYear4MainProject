@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.smartfridgeapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SmartFridgeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadingPageCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddTheProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeleteProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuccessDelete"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateEditShoppingList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditShoppingList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayProductsToBuy"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".MyService"
+            android:exported="false" />
+
+        <activity
+            android:name=".SendNotification"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RecipesDisplay" />
+        <activity android:name=".SingleRecipeDisplay"></activity>
+    </application>
+
+</manifest>
